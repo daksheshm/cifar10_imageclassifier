@@ -60,13 +60,11 @@ The models were trained for a total of 60 epochs using the following setup:
 
 Both models were trained and their performance was tracked. The loss and accuracy curves demonstrated that the **ResNet-9 model performed significantly better** than the TinyVGG model, achieving higher accuracy and faster convergence.
 
-<img src="https://i.imgur.com/g8vBwO5.png" alt="ResNet-9 Final Loss/Accuracy Curves" width="800"/>
 
 ### Model Evaluation
 
-The final, trained ResNet-9 model was evaluated on the test set. The confusion matrix below shows the model's performance on a class-by-class basis.
+The final, trained ResNet model was evaluated on the test set. 
 
-<img src="https://i.imgur.com/r0lqV6c.png" alt="Confusion Matrix" width="600"/>
 
 The model performs well overall, with an accuracy of approximately 90% on the test set. However, the confusion matrix highlights some class ambiguity, particularly between **cats** and **dogs**, which is a common challenge due to their visual similarities. This could be addressed with a more complex model or more targeted data augmentation.
 
