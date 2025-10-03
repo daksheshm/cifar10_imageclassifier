@@ -1,7 +1,7 @@
 
 # CIFAR-10 Image Classification using CNNs in PyTorch
 
-This project focuses on building, training, and evaluating Convolutional Neural Networks (CNNs) to classify images from the CIFAR-10 dataset using the PyTorch framework. Two different architectures are explored: a custom VGG-style network (TinyVGG) and a ResNet-9 model.
+This project focuses on building, training, and evaluating Convolutional Neural Networks (CNNs) to classify images from the CIFAR-10 dataset using the PyTorch framework. Two different architectures are explored: a custom VGG-style network (TinyVGG) and a ResNet model.
 
 ## Project Overview
 
