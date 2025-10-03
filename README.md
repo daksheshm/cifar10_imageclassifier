@@ -3,6 +3,7 @@
 
 This project focuses on building, training, and evaluating Convolutional Neural Networks (CNNs) to classify images from the CIFAR-10 dataset using the PyTorch framework. Two different architectures are explored: a custom VGG-style network (TinyVGG) and a ResNet model.
 
+The '''main.ipynb''' file contains the entire pipeline for the project 
 ## Project Overview
 
 The primary goal is to accurately classify 32x32 color images into one of 10 distinct classes. The process involves:
