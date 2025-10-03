@@ -68,7 +68,7 @@ Both models were trained and their performance was tracked. The loss and accurac
 The final, trained ResNet model was evaluated on the test set. 
 
 
-The model performs well overall, with an accuracy of approximately 90% on the test set. However, the confusion matrix highlights some class ambiguity, particularly between **cats** and **dogs**, which is a common challenge due to their visual similarities. This could be addressed with a more complex model or more targeted data augmentation.
+The model performs well overall, with an accuracy of approximately 90% on the test set. However, the confusion matrix highlights some class ambiguity, particularly between **cats** and **dogs**, which is a challenge due to their visual similarities. This could be addressed with a more complex model or more targeted data augmentation.
 
 ## How to Run
 
@@ -89,17 +89,5 @@ You can install these using pip:
 ```bash
 pip install torch torchvision scikit-learn pandas seaborn numpy matplotlib tqdm torchinfo
 ```
-
-1.  **Clone the repository:**
-    ```bash
-    git clone <your-repository-url>
-    cd <your-repository-name>
-    ```
-2.  **Open and run the notebook:**
-    Launch Jupyter Notebook and open `main.ipynb`.
-    ```bash
-    jupyter notebook main.ipynb
-    ```
-3.  Execute the cells in order. The notebook will automatically download the CIFAR-10 dataset into a `data/` directory.
 
 **Note:** Training is significantly faster on a machine with a GPU. The notebook is configured to automatically use a CUDA-enabled GPU if one is available.
